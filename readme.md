@@ -1,8 +1,8 @@
-#Overview
+Overview
 ---
 BestToWork uses the Glassdoor API and lets users search for a company name, and see a profile with the Glassdoor ratings. Users can also sign in, save the profile and add their own notes on the company.
 
-#UI Draft
+UI Draft
 ---
 The application will have the following views:
 1. Main page that explains what the application does,  sample profile, and search bar
@@ -12,7 +12,7 @@ The application will have the following views:
 4. Log in view (for returning users)
 5. User profile page that has saved company profiles that lists all profiles saved
 
-#Technical Requirements
+Technical Requirements
 ---
 The application will rely on the following:
 
@@ -23,16 +23,20 @@ The application will rely on the following:
 - passport
 - passport-local-mongoose
 
-#Features
+Features
 ---
 **Search for Company by Name**
+
 Users can search for companies by name.  The application will take the name parameter and find companies that fit the criteria.  It will then render the search results view that lists company names
 
 **View Company Profile**
+
 Selecting a company from the search results view will render the company's profile with detailed information on ratings & reviews
 
 **Authorization**
+
 Users can sign up using their email and password.
 
 **Save Company Profile**
+
 Users that are logged in can save a company profile. Saving a profile will save the company profile to the user's profile page
